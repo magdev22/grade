@@ -1,9 +1,10 @@
 <?php
 
-function sum($summFirst,$summSecond,$summmThird,$summFourth,$summFifth ){
-    $sum= ($summFirst + $summSecond + $summmThird + $summFourth + $summFifth)/5;
- return   print_r($sum);
+function sumArr( $array){
+    $sum =array_sum($array)/count($array);
+    return   print_r($sum);
 }
+
 
 
 ?>
